@@ -5,7 +5,7 @@
 
 int main(int argc, char** argv) {
 	char stra[]="chen zhipeng 2021 hehe!";
-	char strb[]="#######################";
+	char strb[]="                       ";
 	int left=0;
 	int right=strlen(stra)-1; //strlen()是求字符串长度，它用string.h头文件 
 	while(left<=right){
