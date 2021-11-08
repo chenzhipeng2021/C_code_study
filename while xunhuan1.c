@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
 	char stra[]="chen zhipeng 2021 hehe!";
 	char strb[]="                       ";
 	int left=0;
-	int right=strlen(stra)-1; //strlen()是求字符串长度，它用string.h头文件 
+	int right=strlen(stra)-1; //strlen()是求字符串长度，它用string.h头文件 由于字符串的结尾有个\0作为标志，所以应该减1
 	while(left<=right){
 		strb[left]=stra[left];
 		strb[right]=stra[right];
